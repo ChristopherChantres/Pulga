@@ -2,12 +2,14 @@ html,body{
   padding: 0px;
   margin: 0px;
   font-size: 12px;
-  font-family: Helvetica;
+  font-family: "Arial";
+  background-color: #CCF6E7;
+
 }
 
 nav{
   display: flex;
-  background: #A5F823;
+  background: #08E594;
   padding: 10px;
   color: white;
   justify-content: space-between;
@@ -40,4 +42,38 @@ nav li a:hover{
 
 .products{
   background-image: url("../images/curve.png");
+  max-height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 20%;
+  display: flex;
+}
+
+.product{
+  padding: 10px;
+  margin-top: -390px;
+}
+
+.products .content{
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 0 5px 2px #817f7f;
+}
+
+.img_content{
+  text-emphasis: center;
+}
+
+.main_button{
+  background-color: #08E594;
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.main_button:hover{
+  background-color: #08e548;
 }
