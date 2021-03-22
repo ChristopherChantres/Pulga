@@ -1,17 +1,36 @@
+/* --------------------Variables */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root{
+--green-light:#CCF6E7;
+--green-color:#08E594;
+--white-color:white;
+--black-color:#3c3c3c;
+/* Espaciado */
+--space:10px;
+/* Tipografía */
+--normal:12px;
+/* Box shadow */
+--box:0 0 5px 2px #817f7f;
+
+}
+
+/* --------------------Variables */
+
+
+
 html,body{
   padding: 0px;
   margin: 0px;
-  font-size: 12px;
-  font-family: "Arial";
-  background-color: #CCF6E7;
-
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--green-light);
 }
 
 nav{
   display: flex;
-  background: #08E594;
-  padding: 10px;
-  color: white;
+  background: var(--green-color);
+  padding: var(--space);
+  color: var(--white-color);
   justify-content: space-between;
   align-items: center;
 }
@@ -26,16 +45,18 @@ nav li{
 }
 
 nav li a{
-  color: black;
+  font-size: 15px;
+  color: var(--black-colo);
   text-decoration: none;
 }
 
 nav li a:hover{
-  color: white;
+  color: var(--black-color);
 }
 /* -----------------------------Main section */
 
 .main_section{
+  font-size: 20px;
   padding: 20%;
   text-align: center;
 }
@@ -50,14 +71,14 @@ nav li a:hover{
 }
 
 .product{
-  padding: 10px;
-  margin-top: -390px;
+  padding: var(--space);
+  margin-top: -290px;
 }
 
 .products .content{
-  background-color: white;
+  background-color: var(--white-color);
   padding: 15px;
-  box-shadow: 0 0 5px 2px #817f7f;
+  box-shadow: var(--box);
 }
 
 .img_content{
@@ -65,15 +86,37 @@ nav li a:hover{
 }
 
 .main_button{
-  background-color: #08E594;
+  background-color: var(--green-color);
   width: 100%;
-  padding: 10px;
-  font-size: 12px;
-  color: white;
+  padding: var(--space);
+  font-size: var(--normal);
+  color: var(--white-color);
   border: 0;
   cursor: pointer;
+  border-radius: var(--space);
 }
 
 .main_button:hover{
-  background-color: #08e548;
+  background-color: #56FE00;
+}
+
+/* ------------------Home section */
+
+.home_section{
+  display: flex;
+}
+
+.products_feat{
+  padding: 20px;
+  display: flex;
+  padding: 15%;
+}
+
+.product_features{
+  padding: 10px;
+}
+
+.product_features .product_content{
+  background-color: var(--green-light);
+  padding: 20px;
 }
