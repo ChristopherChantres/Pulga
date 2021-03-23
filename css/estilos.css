@@ -166,11 +166,15 @@ nav li a:hover{
   text-align: left;
   border: 0;
   border-radius: 5px;
+  border: 5px solid #666;
+}
+
+.mention_product .mentions_content:hover{
+  font-style: italic;
 }
 
 .mention_image{
   text-align: center;
-
 }
 
 /* ------------------------Footer */
