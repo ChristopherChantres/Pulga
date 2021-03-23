@@ -23,7 +23,7 @@ html,body{
   margin: 0px;
   font-size: var(--normal);
   font-family: 'Open Sans', sans-serif;
-  background-color: var(--green-light);
+  /* background-color: var(--green-light); */
 }
 
 nav{
