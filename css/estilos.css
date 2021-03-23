@@ -46,6 +46,7 @@ nav li{
 
 nav li a{
   font-size: 15px;
+  /* Agregar la "R" a color */
   color: var(--black-colo);
   text-decoration: none;
 }
