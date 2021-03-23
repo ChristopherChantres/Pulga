@@ -53,6 +53,12 @@ nav li a{
 nav li a:hover{
   color: var(--black-color);
 }
+
+nav li a:hover{
+  color: #565656;
+  font-size: 1.5rem;
+  transition: all .5s;
+}
 /* -----------------------------Main section */
 
 .main_section{
@@ -61,9 +67,15 @@ nav li a:hover{
   text-align: center;
 }
 
+.main_section h1:hover{
+  color: #565656;
+  font-size: 4rem;
+  transition: all 1s;
+}
+
 .products{
   background-image: url("../images/curve.png");
-  max-height: 50px;
+  height: 50px;
   background-size: cover;
   background-position: center top;
   padding: 20%;
@@ -161,23 +173,28 @@ footer{
   background: var(--black-color);
   padding: var(--space);
   color: var(--white-color);
-  justify-content: space-around;
-}
-
-footer ul{
-  display: flex;
+  justify-content: center;
+  justify-content: space-between;
 }
 
 footer li{
-  padding-left: 20px;
   list-style: none;
 }
 
 footer li a{
   color: var(--white-color);
   text-decoration: none;
+  font-size: 13px;
 }
 
 footer li a:hover{
   color: var(--green-color);
+}
+
+.footer_t_and_c{
+  margin-left: 10%;
+}
+
+.footer_contacs{
+  margin-right: 10%;
 }
