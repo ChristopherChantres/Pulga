@@ -13,8 +13,14 @@
     padding: 4%;
   }
 
-  .home_section, .mention_section{
+  .products_feat{
     display: inherit;
+  }
+
+  .mentions_prod{
+    display: unset;
+    padding: 30%;
+
   }
 
 
