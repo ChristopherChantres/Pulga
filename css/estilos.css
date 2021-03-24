@@ -23,7 +23,7 @@ html,body{
   margin: 0px;
   font-size: var(--normal);
   font-family: 'Open Sans', sans-serif;
-  /* background-color: var(--green-light); */
+  background-color: var(--green-light);
 }
 
 nav{
@@ -160,7 +160,7 @@ nav li a:hover{
 }
 
 .mention_product .mentions_content{
-  background-color: var(--white-color);
+  background-color: #D6D6D6;
   padding: 10px;
   box-shadow: var(--box);
   text-align: left;
@@ -175,6 +175,9 @@ nav li a:hover{
 
 .mention_image{
   text-align: center;
+  /* width: 150px;
+  height: 150px;
+  border-radius: 150px; */
 }
 
 /* ------------------------Footer */
