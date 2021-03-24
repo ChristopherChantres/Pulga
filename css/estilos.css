@@ -160,13 +160,14 @@ nav li a:hover{
 }
 
 .mention_product .mentions_content{
-  background-color: #D6D6D6;
+  background-color: var(--black-color);
   padding: 10px;
   box-shadow: var(--box);
   text-align: left;
   border: 0;
   border-radius: 5px;
   border: 2px solid #666;
+  color: var(--white-color);
 }
 
 .mention_product .mentions_content:hover{
