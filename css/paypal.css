@@ -1,0 +1,26 @@
+html, body{
+  background-color: var(--black-color);
+  text-align: center;
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.content_paypal a{
+  color: var(--green-color);
+
+}
+
+.content_paypal a:hover{
+  color: #A700FF;
+  font-size: 1.1rem;
+  transition: all 1s;
+}
+
+.content_paypal img{
+  padding-top: 10px;
+
+}
