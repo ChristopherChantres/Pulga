@@ -1,0 +1,22 @@
+html, body{
+  height: 100vh;
+  font-family: Roboto,sans-serif;
+}
+
+.pregunta1, .pregunta2, .pregunta3, .pregunta4{
+  margin: 7%;
+  color: var(--white-color);
+  background-color: #1e5372;
+  box-shadow: var(--box-ventas);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.respuesta1, .respuesta2, .respuesta3, .respuesta4{
+  color: var(--white-color);
+  background-color: #16445E;
+  box-shadow: var(--box-ventas);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+}
