@@ -267,7 +267,27 @@ footer li a{
   font-size: 13px;
 }
 
-footer li a:hover{
+footer li{
+padding-right: 20px;
+}
+
+
+footer .facebook:hover{
+  font-size: 3rem;
+  transition: all .15s;
+}
+
+footer .instagram:hover{
+  font-size: 3rem;
+  transition: all .15s;
+}
+
+footer .twitter:hover{
+  font-size: 3rem;
+  transition: all .15s;
+}
+
+.footer_t_and_c a:hover{
   color: var(--green-color);
 }
 
@@ -277,4 +297,8 @@ footer li a:hover{
 
 .footer_contacs{
   margin-right: 5%;
+  display: flex;
+}
+.footer_contacs a:hover{
+  color: var(--green-color);
 }
